@@ -6,6 +6,7 @@ namespace LogikSuite\Translation;
  * List of locales
  *
  * @copyright 2021 LogikSuite
+ * @license MIT
  */
 class Locale
 {

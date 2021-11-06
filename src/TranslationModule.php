@@ -6,6 +6,7 @@ namespace LogikSuite\Translation;
  * Translation module
  *
  * @copyright 2021 LogikSuite
+ * @license MIT
  */
 class TranslationModule
 {
