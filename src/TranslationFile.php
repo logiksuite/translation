@@ -6,6 +6,7 @@ namespace LogikSuite\Translation;
  * Laravel translation file
  *
  * @copyright 2021 LogikSuite
+ * @license MIT
  */
 class TranslationFile
 {
