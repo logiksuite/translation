@@ -1,0 +1,37 @@
+{
+    "name": "logiksuite/translation",
+    "description": "Logiksuite Translation package.",
+    "license": "MIT",
+    "homepage": "https://logiksuite.com",
+    "support": {
+        "issues": "https://github.com/logiksuite/translation/issues",
+        "source": "https://github.com/logiksuite/translation"
+    },
+    "authors": [
+        {
+            "name": "Benoit Gauthier",
+            "email": "bgauthier@globalia.ca"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "ext-json": "*",
+        "google/cloud-translate": "dev-master"         
+    },    
+    "autoload": {
+        "psr-4": {
+            "LogikSuite\\Translation\\": "/src"
+        }
+    },
+    "extra": {      
+        "laravel": {
+            "providers": [
+                "LogikSuite\\Translation\\TranslationServiceProvider"
+            ]
+        }
+    },    
+    "config": {
+        "sort-packages": true
+    },    
+    "minimum-stability": "dev"
+}
